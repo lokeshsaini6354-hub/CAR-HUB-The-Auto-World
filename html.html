@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAR HUB - The Auto World</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <h1>CAR HUB</h1>
+    <p>The Auto World</p>
+</header>
+
+<nav>
+    <button data-page="home">Home</button>
+    <button data-page="cars">Cars</button>
+    <button data-page="compare">Compare</button>
+    <button data-page="booking">Booking</button>
+    <button data-page="about">About</button>
+    <button data-page="contact">Contact</button>
+</nav>
+
+<!-- HOME PAGE -->
+<section id="home" class="page active">
+    <div class="home">
+        <h2>Welcome to CAR HUB</h2>
+        <p>Explore luxury, sports and powerful cars.</p>
+        <p>Find your dream car at one place!</p>
+        <button data-page="cars">Explore Cars</button>
+    </div>
+</section>
+
+<!-- CARS PAGE -->
+<section id="cars" class="page">
+    <h2>Our Car Collection</h2>
+
+    <div class="car-container">
+
+        <div class="car-card">
+            <img src="https://imgd.aeplcdn.com/1280x720/n/cw/ec/178277/porsche-911-left-front-three-quarter1.jpeg?isig=0&wm=0" alt="Porsche 911">
+            <h3>Porsche 911</h3>
+            <p>Sports Car</p>
+            <h4>Price: ₹2.00 Crore</h4>
+            <p>Power: 379 HP</p>
+            <div class="stars">☆☆☆☆☆</div>
+            <p class="rating">Give your rating</p>
+            <button data-book="Porsche 911">Book This Car</button>
+        </div>
+
+        <div class="car-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTAaDOvs4U_fHeGc9iNTGpsreLCPiOijpfesv6P_14niR14gEl-PX3nLA&s=10" alt="BMW M5">
+            <h3>BMW M5</h3>
+            <p>Luxury Sedan</p>
+            <h4>Price: ₹1.99 Crore</h4>
+            <p>Power: 717 HP</p>
+            <div class="stars">☆☆☆☆☆</div>
+            <p class="rating">Give your rating</p>
+            <button data-book="BMW M5">Book This Car</button>
+        </div>
+
+        <div class="car-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZD-azLqdye1hTn1XmUjMN6C_BuGbmlwC2oRdYAdIJ8Q&s=10" alt="Lamborghini">
+            <h3>Lamborghini</h3>
+            <p>Supercar</p>
+            <h4>Price: Not confirmed</h4>
+            <p>Power: Not confirmed</p>
+            <div class="stars">☆☆☆☆☆</div>
+            <p class="rating">Give your rating</p>
+            <button data-book="Lamborghini">Book This Car</button>
+        </div>
+
+        <div class="car-card">
+            <img src="https://www.assets.ford.com/adobe/assets/urn:aaid:aem:94ed670a-3479-4c11-88a6-391e17c9525e/as/26_FRD_MST_RTR_LAUNCH_VHP-Accordion3_v1.webp?max-quality=75&crop-names=1_3x4&width=768" alt="Ford Mustang">
+            <h3>Ford Mustang</h3>
+            <p>Muscle Car</p>
+            <h4>Price: Not confirmed</h4>
+            <p>Power: Not confirmed</p>
+            <div class="stars">☆☆☆☆☆</div>
+            <p class="rating">Give your rating</p>
+            <button data-book="Ford Mustang">Book This Car</button>
+        </div>
+
+        <div class="car-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1cz43FphxiiqA4GJYfPaVYTUOfEMtJA-lEeBdwRQKCg&s=10" alt="Range Rover">
+            <h3>Range Rover</h3>
+            <p>Luxury SUV</p>
+            <h4>Price: ₹2.31 Crore</h4>
+            <p>Power: Not confirmed</p>
+            <div class="stars">☆☆☆☆☆</div>
+            <p class="rating">Give your rating</p>
+            <button data-book="Range Rover">Book This Car</button>
+        </div>
+
+        <div class="car-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWKalg0tFFJ0TNIIt1BbVpH26VpIZA4wlhvretfw-KQt0DKUlh5x4tKEo&s=10" alt="Chevrolet Corvette">
+            <h3>Chevrolet Corvette</h3>
+            <p>Sports Car</p>
+            <h4>Price: Not confirmed</h4>
+            <p>Power: Not confirmed</p>
+            <div class="stars">☆☆☆☆☆</div>
+            <p class="rating">Give your rating</p>
+            <button data-book="Chevrolet Corvette">Book This Car</button>
+        </div>
+
+        <div class="car-card">
+            <img src="https://www.mercedes-benz.co.in/content/dam/india/passengercars/campaigns/finance/opportuity-knocks/MB_November-tactical_Homepage-Banners_GLE_2200x2200.jpg/1793759548602.jpg?im=Crop,rect=(0,0,2200,2200);Resize=(800,800)" alt="Mercedes Benz">
+            <h3>Mercedes-Benz</h3>
+            <p>Luxury Car</p>
+            <h4>Price: Not confirmed</h4>
+            <p>Power: Not confirmed</p>
+            <div class="stars">☆☆☆☆☆</div>
+            <p class="rating">Give your rating</p>
+            <button data-book="Mercedes-Benz">Book This Car</button>
+        </div>
+
+        <div class="car-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0KF-sFzLLaqcY5yfeVsEDetjsgbr7hFtAXo5qeJjMUw&s" alt="Ferrari">
+            <h3>Ferrari</h3>
+            <p>Supercar</p>
+            <h4>Price: Not confirmed</h4>
+            <p>Power: Not confirmed</p>
+            <div class="stars">☆☆☆☆☆</div>
+            <p class="rating">Give your rating</p>
+            <button data-book="Ferrari">Book This Car</button>
+        </div>
+
+        <div class="car-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2V3dyBhsL41k1CZMbQiP06--sINON_pJZyENZWXTzRA&s=10" alt="Jeep Wrangler">
+            <h3>Jeep Wrangler</h3>
+            <p>Off-Road SUV</p>
+            <h4>Price: Not confirmed</h4>
+            <p>Power: Not confirmed</p>
+            <div class="stars">☆☆☆☆☆</div>
+            <p class="rating">Give your rating</p>
+            <button data-book="Jeep Wrangler">Book This Car</button>
+        </div>
+
+        <div class="car-card">
+            <img src="https://cdn.dlron.us/static/dealer-10711/2026_Toyota_4Runner.jpeg?v=BPxgg1aa7WZqrYSZIXIxVA==" alt="Toyota SUV">
+            <h3>Toyota SUV</h3>
+            <p>Family SUV</p>
+            <h4>Price: Not confirmed</h4>
+            <p>Power: Not confirmed</p>
+            <div class="stars">☆☆☆☆☆</div>
+            <p class="rating">Give your rating</p>
+            <button data-book="Toyota SUV">Book This Car</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- COMPARE PAGE -->
+<section id="compare" class="page">
+    <h2>Compare Your Cars</h2>
+
+    <div class="box">
+        <select id="carOne">
+            <option value="">Select First Car</option>
+            <option>Porsche 911</option>
+            <option>BMW M5</option>
+            <option>Lamborghini</option>
+            <option>Ford Mustang</option>
+            <option>Range Rover</option>
+            <option>Chevrolet Corvette</option>
+            <option>Mercedes-Benz</option>
+            <option>Ferrari</option>
+            <option>Jeep Wrangler</option>
+            <option>Toyota SUV</option>
+        </select>
+
+        <select id="carTwo">
+            <option value="">Select Second Car</option>
+            <option>Porsche 911</option>
+            <option>BMW M5</option>
+            <option>Lamborghini</option>
+            <option>Ford Mustang</option>
+            <option>Range Rover</option>
+            <option>Chevrolet Corvette</option>
+            <option>Mercedes-Benz</option>
+            <option>Ferrari</option>
+            <option>Jeep Wrangler</option>
+            <option>Toyota SUV</option>
+        </select>
+
+        <button id="compareButton">Compare</button>
+
+        <div id="comparisonResult"></div>
+    </div>
+</section>
+
+<!-- BOOKING PAGE -->
+<section id="booking" class="page">
+    <h2>Book Your Dream Car</h2>
+
+    <div class="box">
+        <form id="bookingForm">
+
+            <input id="customerName" placeholder="Your Name" required>
+
+            <input id="customerEmail" type="email" placeholder="Your Email" required>
+
+            <input id="customerPhone" type="tel"
+                   placeholder="Phone Number"
+                   pattern="[0-9]{10}" required>
+
+            <select id="bookingCar" required>
+                <option value="">Select Your Car</option>
+                <option>Porsche 911</option>
+                <option>BMW M5</option>
+                <option>Lamborghini</option>
+                <option>Ford Mustang</option>
+                <option>Range Rover</option>
+                <option>Chevrolet Corvette</option>
+                <option>Mercedes-Benz</option>
+                <option>Ferrari</option>
+                <option>Jeep Wrangler</option>
+                <option>Toyota SUV</option>
+            </select>
+
+            <input id="bookingDate" type="date" required>
+
+            <button type="submit">Book Test Drive</button>
+
+        </form>
+
+        <p id="bookingMessage"></p>
+    </div>
+</section>
+
+<!-- ABOUT PAGE -->
+<section id="about" class="page">
+    <div class="about">
+        <h2>About CAR HUB</h2>
+
+        <p>
+            CAR HUB is a car information website where you can
+            explore different types of cars.
+        </p>
+
+        <p>
+            Compare cars, check ratings and book a test drive.
+        </p>
+    </div>
+</section>
+
+<!-- CONTACT PAGE -->
+<section id="contact" class="page">
+    <h2>Contact Us</h2>
+
+    <div class="box">
+        <form id="contactForm">
+
+            <input placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <textarea placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+    </div>
+</section>
+
+<!-- PAGE NAVIGATION -->
+<div class="page-buttons">
+    <button id="previousButton">← Back</button>
+    <button id="nextButton">Next →</button>
+</div>
+
+<footer>
+    <p>© 2026 CAR HUB | The Auto World</p>
+    <p>Created with HTML, CSS and JavaScript</p>
+</footer>
+
+</body>
+</html>
